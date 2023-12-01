@@ -1,0 +1,82 @@
+.container{
+    width: 400px;
+    margin: auto;
+   margin-top: 150px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    border-radius: 10px;
+    overflow: hidden;
+    }
+    .box{
+        display: flex;
+        justify-content: space-around;
+        background-color:  hsl(225, 100%, 98%);
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .text1{
+        margin-right: 80px;
+        text-align: center;
+    }
+    .text1 h4{
+        margin-bottom:0 ;
+    }
+    .text1 p{
+        margin-top: 0;
+    }
+button{
+    padding: 15px 60px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: hsl(245, 75%, 52%);
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    width: 80%;
+    cursor: pointer;
+    font-size: medium;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+
+
+}
+.text2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 25px;
+
+}
+body{
+    background-color:hsl(225, 100%, 94%);
+    height: 100vh;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#cancel{
+    padding-bottom:15px ;
+}
+#cancel a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold
+
+}
+a:hover{
+    color:hsl(223, 47%, 23%);
+}
+#cancel a:hover{
+    color: red;
+}
+button:hover{
+    background-color: hsl(223, 47%, 23%) ;
+    box-shadow: 2px 2px 5px 1px hsl(245, 75%, 52%);
+}
